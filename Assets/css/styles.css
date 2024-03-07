@@ -34,8 +34,41 @@ header .item {
     align-items: center;
 }
 
+header .item:hover {
+    background-color: var(--quaternary-color);
+}
+
 header .item a {
     text-decoration: none;
     color: var(--light-color);
     font-size: 1.2rem;
 }
+
+section {
+    height: 80vh;
+    padding: 32px;
+}
+
+section h1 { font-size: 2rem; }
+
+section p { font-size: 12px; }
+
+section .image-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .image-list img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.brasil { background: var(--tertiary-color); }
+.india { background: var(--secondary-color); }
+.china { background: var(--primary-color); }
+.italia { background: var(--quaternary-color); }
+.peru { background: var(--quinary-color); }
+.jordania { background: var(--tertiary-color); }
+.mexico { background: var(--primary-color); }
